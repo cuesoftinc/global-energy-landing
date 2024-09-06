@@ -1,0 +1,35 @@
+.member-class {
+    font-size: 16px;
+    color: #959595;
+    padding: 12px 26px;
+    background-color: #F9F9F9;
+    border-radius: 32px;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.selected-class {
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 26px;
+    background-color: #0E1C4D;
+    border-radius: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 820px) {
+    .member-class,
+    .selected-class {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 639px) {
+    .member-class,
+    .selected-class {
+        text-align: center;
+        padding: 8px;
+        font-size: 8px;
+    }
+}
