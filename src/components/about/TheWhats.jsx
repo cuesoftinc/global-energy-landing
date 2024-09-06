@@ -48,7 +48,7 @@ const TheWhats = () => {
 
 
             <div className="flex flex-row justify-end items-center w-[50%]">
-                <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[380px] rounded-2xl bg-yellow"></div>
+                <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[360px] rounded-2xl bg-yellow"></div>
                 <div>
                     <iframe
                         className="lg:w-[350px] rounded-[10px] bg-black"
