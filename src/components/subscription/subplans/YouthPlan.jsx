@@ -10,7 +10,7 @@ const YouthPlan = () => {
     return (
             <div className="bg-[#e3e6ef] rounded-[36px] md:rounded-[12px] px-[58px] pt-[40px] sm:px-[24px] md:py-[30px] flex flex-col gap-[30px]">
                 <div className="flex flex-row justify-between">
-                    <p className="text-[32px] text-[#0E1C4D] font-semibold leading-[64px] w-[60%] md:w-full sm:text-[24px] md:leading-[44px]  sm:leading-[34px] md:text-center">Benefits for youth membership on:</p>
+                    <p className="text-[32px] text-[#0E1C4D] font-semibold leading-[64px] w-full sm:text-[24px] md:leading-[44px] sm:leading-[34px] md:text-center">Benefits for youth membership on:</p>
                     <a href="#">
                         <Button className="w-[139px] h-[55px] md:hidden" text={"Get Started"} />
                     </a>
