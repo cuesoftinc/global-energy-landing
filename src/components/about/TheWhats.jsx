@@ -11,12 +11,12 @@ const TheWhats = () => {
     }
 
     return (
-        <div className="flex flex-row justify-between items-start gap-6 px-[60px]">
-            <div className="flex flex-col gap-[12px] w-[50%]">
+        <div className="flex flex-row justify-between items-start gap-6 px-[60px] md:px-[40px] sm:px-[20px]">
+            <div className="flex flex-col gap-[12px] w-[50%] lg:w-full">
                 <div className="flex flex-col gap-[8px]">
                     <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">Who we are</p>
                     <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-                    <div>
+                    <div className="md:flex flex-row justify-center mt-2">
                         {readmore[0] ? (<button onClick={() => handletoggle(0)} className="font-bold text-red-500">Read Less</button>
                         ) : (
                             <button onClick={() => handletoggle(0)} className="font-bold text-green">Read More</button>
@@ -32,7 +32,7 @@ const TheWhats = () => {
                 <div className="flex flex-col gap-[8px]">
                     <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">What we do</p>
                     <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-                    <div>
+                    <div className="md:flex flex-row justify-center mt-2">
                         {readmore[1] ? (<button onClick={() => handletoggle(1)} className="font-bold text-red-500">Read Less</button>
                         ) : (
                             <button onClick={() => handletoggle(1)} className="font-bold text-green">Read More</button>
@@ -46,8 +46,7 @@ const TheWhats = () => {
                 </div>
             </div>
 
-
-            <div className="flex flex-row justify-end items-center w-[50%]">
+            <div className="flex flex-row justify-end items-center w-[50%]  lg:hidden">
                 <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[360px] rounded-2xl bg-yellow"></div>
                 <div>
                     <iframe
