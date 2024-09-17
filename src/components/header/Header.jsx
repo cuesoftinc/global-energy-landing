@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import NavLinks from "./NavLinks";
 import Logo from "../../assets/logo.svg"
 import menuBar from "../../assets/menu-bar.svg"
-import MobileMenu from "./mobileMenu";
 import closeIcon from "../../assets/close-icon.svg"
+import MobileMenu from "./mobileMenu";
 
 
 const Header = () => {
@@ -27,7 +27,7 @@ const Header = () => {
                 </div>
                 {togglemenu && (
                     <div className="hidden sm:block bg-white absolute top-[60px] py-4 w-[90%]">
-                        <MobileMenu />
+                      <MobileMenu />
                     </div>
                 )}
             </div>
