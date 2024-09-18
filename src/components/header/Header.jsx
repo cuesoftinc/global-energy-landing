@@ -3,7 +3,7 @@ import NavLinks from "./NavLinks";
 import Logo from "../../assets/logo.svg"
 import menuBar from "../../assets/menu-bar.svg"
 import closeIcon from "../../assets/close-icon.svg"
-import MobileMenu from "./mobileMenu";
+import MobileMenu from "./MobileMenu";
 
 
 const Header = () => {

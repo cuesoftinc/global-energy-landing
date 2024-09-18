@@ -3,7 +3,7 @@ import Hero from "../components/Hero/Hero";
 import About from "../components/about/About";
 import FrequentQuestion from "../components/faq/Questions";
 import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
+import Header from "../components/header/Header"
 import PlansAndSub from "../components/subscription/Plans";
 
 
