@@ -6,6 +6,7 @@ import closeIcon from "../../assets/close-icon.svg"
 import MobileMenu from "./MobileMenu";
 
 
+
 const Header = () => {
     const [togglemenu, setToggleMenu] = useState(false)
 
@@ -27,7 +28,7 @@ const Header = () => {
                 </div>
                 {togglemenu && (
                     <div className="hidden sm:block bg-white absolute top-[60px] py-4 w-[90%]">
-                      <MobileMenu />
+                        <MobileMenu />
                     </div>
                 )}
             </div>

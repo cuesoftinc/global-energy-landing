@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import companyImage from "../../assets/company-image.png"
 
 
 const TheWhats = () => {
@@ -13,9 +14,17 @@ const TheWhats = () => {
     return (
         <div className="flex flex-row justify-between items-start gap-6 px-[60px] md:px-[40px] sm:px-[20px]">
             <div className="flex flex-col gap-[12px] w-[50%] lg:w-full">
+                <p className="text-[20px] text-text sm:text-[14px] lg:text-center md:w-full">We have successfully established
+                    partnership with the Transmission
+                    Company of Nigeria (TCN). TCN is the
+                    transmission company under ministry
+                    of power, which is the focal point for
+                    (See4all) Sustainable Energy for all. See4all is an organisation which stemmed from united Nation.
+                </p>
                 <div className="flex flex-col gap-[8px]">
-                    <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">Who we are</p>
-                    <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+                    <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">Mission and Vision</p>
+                    <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Our mission is to harness everyone's effort toward attaining net zero carbon by 2050.
+                    </p>
                     <div className="md:flex flex-row justify-center mt-2">
                         {readmore[0] ? (<button onClick={() => handletoggle(0)} className="font-bold text-red-500">Read Less</button>
                         ) : (
@@ -24,14 +33,14 @@ const TheWhats = () => {
                     </div>
                     {readmore[0] && (
                         <div>
-                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Our vision is to sustainably align with net zero agenda, while harnessing and mobilising the effort of every individual on earth surface to its effect.</p>
                         </div>
                     )}
                 </div>
 
                 <div className="flex flex-col gap-[8px]">
-                    <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">What we do</p>
-                    <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+                    <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">Objectives</p>
+                    <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">1. To mobilize and guide men,women, and children to concertedly participate in every way possible to mitigate greenhouse gas emission with regards to the laid out goal in the Paris agreement.</p>
                     <div className="md:flex flex-row justify-center mt-2">
                         {readmore[1] ? (<button onClick={() => handletoggle(1)} className="font-bold text-red-500">Read Less</button>
                         ) : (
@@ -39,8 +48,13 @@ const TheWhats = () => {
                         )}
                     </div>
                     {readmore[1] && (
-                        <div>
-                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+                        <div className="flex flex-col gap-2">
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">2. To establish an interactive group/club for children and adult carder respectively for knowledge exchange on mile stone activities towards carbon netzero. This will establish the trending pattern for energy conservative attitude or behaviour for every body and importantly for our children and generations to come.</p>
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">3. To liaise with professional, engineers and project developers to begin designs and development of projects that are completely renewable energy.</p>
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">4. To facilitate and assist the government on policies to accelerate their net zero plan.</p>
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">5. To develop strategies and focus on activities aimed at maximise emission reduction.</p>
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">6. To facilitate and focusing on an enabling new clean electricity generation.</p>
+                            <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">7. To establish programs to assist in migrating from dirty energy sources to clean energy sources.</p>
                         </div>
                     )}
                 </div>
@@ -49,15 +63,16 @@ const TheWhats = () => {
             <div className="flex flex-row justify-end items-center w-[50%]  lg:hidden">
                 <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[360px] rounded-2xl bg-yellow"></div>
                 <div>
-                    <iframe
+                    {/* <iframe
                         className="lg:w-[350px] rounded-[10px] bg-black"
                         width="520"
                         height="400"
-                        src=""
+                        src={companyImage}
                         frameBorder="2"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
-                    ></iframe>
+                    ></iframe> */}
+                    <img className="lg:w-[350px] h-[400px] w-[520px] rounded-[10px] bg-black" src={companyImage} alt="" />
                 </div>
             </div>
         </div>

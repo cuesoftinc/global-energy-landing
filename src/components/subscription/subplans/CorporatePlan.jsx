@@ -1,10 +1,8 @@
-
-
-
 import number1 from "../../../assets/number1.svg"
 import number2 from "../../../assets/number2.svg"
 import number3 from "../../../assets/number3.svg"
 import Button from "../../button/Button"
+import subscribeImg from "../../../assets/subscribe-image.png"
 
 
 
@@ -19,7 +17,7 @@ const CorporatePlan = () => {
                     </a>
                 </div>
 
-                <div className="flex flex-row justify-center items-center gap-12 md:flex-col">
+                <div className="flex flex-row justify-center items-start gap-12 md:flex-col">
                     <div className="w-full flex flex-col justify-between items-start md:items-center gap-9">
 
                         <div className="flex flex-row md:flex-col md:items-center items-start gap-5">
@@ -38,19 +36,19 @@ const CorporatePlan = () => {
                             </div>
                         </div>
 
-                        {/* <div className="flex flex-row md:flex-col items-start md:items-center gap-5">
+                        <div className="flex flex-row md:flex-col items-start md:items-center gap-5">
                             <img src={number3} alt="number icon" />
                             <div>
                                 <p className="text-[24px] font-semibold md:text-center">Extended Plan</p>
                                 <p className="text-[#676767] text-[18px] md:text-center"></p>
                             </div>
-                        </div> */}
+                        </div>
 
                         <Button className="w-[139px] h-[55px] hidden md:block" text={"Get Started"} />
                     </div>
 
-                    <div className="block w-full md:hidden">
-                        <img className="block sm:hidden" src="" alt="image" />
+                    <div className="block w-full h-full md:hidden">
+                        <img className="block rounded-2xl sm:hidden" src={subscribeImg} alt="image" />
                         <img className="hidden sm:block" src="" alt="" />
                     </div>
                 </div>

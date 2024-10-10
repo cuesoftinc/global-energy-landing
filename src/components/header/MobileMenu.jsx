@@ -2,6 +2,7 @@ import { Link } from 'react-scroll';
 import "./Nav.css";
 
 const MobileMenu = () => {
+
     return (
         <ul className="flex flex-col items-center justify-between gap-6 text-[#939393] hover:text-[#212121] w-full 2xl:hidden">
             <li className="nav-link">
@@ -48,4 +49,6 @@ const MobileMenu = () => {
     )
 }
 
-export default MobileMenu;
+export default MobileMenu
+
+
