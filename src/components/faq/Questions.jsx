@@ -59,7 +59,7 @@ const FrequentQuestion = () => {
             Must have completed secondary education.
             <br /> <br />
             <p className="text-primary font-bold">Step 2</p>
-            Register to become youth member of Global energy transition and apply for the training on the website.
+            Register to become youth member of Global Energy Transition and apply for the training on the website.
             <br /> <br />
             <p className="text-primary font-bold">Step 3</p>
             Complete the training and get startup kits.

@@ -23,8 +23,8 @@ const Hero = () => {
                             withIcon={false}
                             type="fill"
                             className="h-[55px] px-8 sm:!h-[40px] sm:text-[12px]"
-                            text={'Get started'}
-                            onClick={() => window.location.href = "https://global-webapp.vercel.app/"}
+                            text={'Get Started'}
+                            onClick={() => window.location.href = import.meta.env.VITE_APP_URL}
                         />
         
                         <Button
@@ -32,7 +32,7 @@ const Hero = () => {
                             type="outline"
                             className="h-[55px] px-6 sm:!h-[40px] sm:text-[12px]"
                             text={'Community Feeds'}
-                            onClick={() => window.location.href = "https://global-webapp.vercel.app/dashboard"}
+                            onClick={() => window.location.href = `${import.meta.env.VITE_APP_URL}dashboard`}
                         />
                     </div>
                     <div className="flex flex-col justify-center items-center rounded-[12px] w-[94%] h-[70vh] md:h-[37vh] sm:h-[30vh] md:w-[93%] lg:w-[95%] lg:h-[60vh] relative z-[10] mt-[0px]">
