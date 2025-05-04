@@ -11,7 +11,7 @@ const FamilyPlan = () => {
     return (
             <div className="bg-[#e3e6ef] rounded-[36px] md:rounded-[12px] px-[58px] pt-[40px] md:py-[30px] sm:px-[24px] flex flex-col gap-[30px]">
                 <div className="flex flex-row justify-between">
-                    <p className="text-[32px] text-[#0E1C4D] font-semibold leading-[64px] w-full sm:text-[24px] md:leading-[44px] sm:leading-[34px] md:text-center">Benefits for family membership on:</p>
+                    <p className="text-[32px] text-[#0E1C4D] font-semibold leading-[64px] w-[70%] md:w-full md:leading-[44px] sm:leading-[28px] md:text-[34px] sm:text-[20px] md:text-center">Incentives for Family members:</p>
                     <a href="#">
                         <Button className="w-[139px] h-[55px] md:hidden" text={"Get Started"} />
                     </a>
@@ -23,24 +23,25 @@ const FamilyPlan = () => {
                         <div className="flex flex-row md:flex-col md:items-center items-start gap-5">
                             <img src={number1} alt="number icon" />
                             <div>
-                                <p className="text-[24px] font-semibold md:text-center">Basic</p>
-                                <p className="text-text text-[18px]  md:text-center">Access to energy audit of your homes and assist in reducing energy usage by 70%.</p>
+                                <p className="text-[24px] font-semibold md:text-center sm:text-[16px] md:text-[18px]">Complete Verified Activities</p>
+                                <p className="text-text text-[18px]  md:text-center sm:text-[14px] md:text-[16px]">Engage in meaningful sustainability tasks tailored to Family account type.</p>
                             </div>
                         </div>
 
                         <div className="flex flex-row md:flex-col items-start md:items-center gap-5">
                             <img src={number2} alt="number icon" />
                             <div>
-                                <p className="text-[24px] font-semibold md:text-center">Advance Plan</p>
-                                <p className="text-text text-[18px]  md:text-center">Access to subsidized rate up to 60% to migrate from to clean energy sources at home.</p>
+                                <p className="text-[24px] font-semibold md:text-center sm:text-[16px] md:text-[18px]">Reduce Your CO₂ Emissions</p>
+                                <p className="text-text text-[18px]  md:text-center sm:text-[14px] md:text-[16px]">Your efforts contribute to measurable carbon reduction — tracked in real-time.</p>
                             </div>
                         </div>
 
                         <div className="flex flex-row md:flex-col items-start md:items-center gap-5">
                             <img src={number3} alt="number icon" />
                             <div>
-                                <p className="text-[24px] font-semibold md:text-center">Extended Plan</p>
-                                <p className="text-text text-[18px] md:text-center">Access to electric vehicles Swap program and others benefits depending on performance.</p>
+                                <p className="text-[24px] font-semibold md:text-center sm:text-[16px] md:text-[18px]">Earn Access to Exclusive Rewards
+</p>
+                                <p className="text-text text-[18px] md:text-center sm:text-[14px] md:text-[16px]">Top contributors gain access to incentives such as renewable energy training, startup funding, eco-tech tools, electric mobility solutions, recognition badges, and even financial bonuses.</p>
                             </div>
                         </div>
 

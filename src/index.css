@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   font-family: "Plus Jakarta Sans", sans-serif;
   line-height: 1.5;
@@ -11,6 +13,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 * {
   padding: 0;
@@ -23,6 +26,6 @@
 }
 
 .app {
-  max-width: 1536px;
+  max-width: 1600px;
   margin: 0 auto;
 }

@@ -4,7 +4,6 @@ import "./Extra.css"
 const Glow = () => {
     return (
         <div className="glow">
-            
         </div>
     )
 }
