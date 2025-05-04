@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import companyImage from "../../assets/company-image.png"
+import companyVideo from "../../assets/video.mp4"
 
 
 const TheWhats = () => {
@@ -12,8 +12,8 @@ const TheWhats = () => {
     }
 
     return (
-        <div className="flex flex-row justify-between items-start gap-6 px-[60px] md:px-[40px] sm:px-[20px]">
-            <div className="flex flex-col gap-[12px] w-[50%] lg:w-full">
+        <div className="flex flex-row justify-between items-start gap-6 px-[60px] md:px-[40px] sm:px-[20px] lg:flex-col">
+            <div className="flex flex-col gap-[30px] w-[50%] lg:w-full">
                 <p className="text-[20px] text-text sm:text-[14px] lg:text-center md:w-full">We have successfully established
                     partnership with the Transmission
                     Company of Nigeria (TCN). TCN is the
@@ -60,19 +60,19 @@ const TheWhats = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row justify-end items-center w-[50%]  lg:hidden">
-                <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[360px] rounded-2xl bg-yellow"></div>
+            <div className="flex flex-row justify-end items-center w-[50%] lg:w-full lg:justify-center">
+                <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[360px] rounded-2xl bg-yellow lg:hidden"></div>
                 <div>
-                    {/* <iframe
-                        className="lg:w-[350px] rounded-[10px] bg-black"
-                        width="520"
-                        height="400"
-                        src={companyImage}
+                    <iframe
+                        className="w-[520px] h-[400px] sm:w-[330px] sm:h-[250px] rounded-[10px] bg-black"
+                        // width="520"
+                        // height="400"
+                        src={companyVideo}
                         frameBorder="2"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
-                    ></iframe> */}
-                    <img className="lg:w-[350px] h-[400px] w-[520px] rounded-[10px] bg-black" src={companyImage} alt="" />
+                    ></iframe>
+                    {/* <img className="lg:w-[350px] h-[400px] w-[520px] rounded-[10px] bg-black" src={companyImage} alt="" /> */}
                 </div>
             </div>
         </div>

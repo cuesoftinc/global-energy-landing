@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg"
-import { Link } from "react-router-dom"
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -14,9 +14,9 @@ const Footer = () => {
                     <div className="flex flex-col gap-4">
                         <p className="text-[16px] sm:text-[12px] text-white font-semibold">Quick Links</p>
                         <div className="flex flex-col gap-3 text-[#D9D8D8] sm:text-[12px]">
-                            <Link to="/about"><p className="hover:underline underline-offset-4">About</p></Link>
-                            <Link to="/subscription"><p className="hover:underline underline-offset-4">Subcription</p></Link>
-                            <Link to="/contact-us"><p className="hover:underline underline-offset-4">FAQ</p></Link>
+                            <Link to="about" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer">About</p></Link>
+                            <Link to="subscription" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer" smooth={true} duration={500}>Subcription</p></Link>
+                            <Link to="faq" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer">FAQ</p></Link>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
 
             <div className="text-[12px] text-white flex flex-col items-end pb-[20px]" >
                 <p className="font-semibold text-left">© Copyright NetZero 50 App. All Rights Reserved</p>
-                <p className="font-semibold text-left">© 2024 - Property of Global Energy.</p>
+                <p className="font-semibold text-left">&copy; {new Date().getFullYear()} - Property of Global Energy.</p>
             </div>
         </div>
     )
