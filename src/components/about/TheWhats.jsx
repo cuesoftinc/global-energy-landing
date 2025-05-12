@@ -12,15 +12,11 @@ const TheWhats = () => {
     }
 
     return (
-        <div className="flex flex-row justify-between items-start gap-6 px-[60px] md:px-[40px] sm:px-[20px] lg:flex-col">
+        <div className="flex flex-row justify-between items-start gap-6 px-[60px] md:px-[40px] sm:px-[20px] lg:flex-col mt-[20px] md:mt-[10px]">
             <div className="flex flex-col gap-[30px] w-[50%] lg:w-full">
-                <p className="text-[20px] text-text sm:text-[14px] lg:text-center md:w-full">We have successfully established
-                    partnership with the Transmission
-                    Company of Nigeria (TCN). TCN is the
-                    transmission company under ministry
-                    of power, which is the focal point for
-                    (See4all) Sustainable Energy for all. See4all is an organisation which stemmed from united Nation.
+                <p className="text-[20px] text-text sm:text-[14px] lg:text-center md:w-full">Whether you're turning off unused appliances, switching to clean cooking, or adopting renewable energy, every step you take counts — and earns you rewards. Together, we are shaping a sustainable future, one action at a time. Join us on the journey.
                 </p>
+                <p className="text-[20px] text-text sm:text-[14px] lg:text-center md:w-full">Act. Earn. Transform.</p>
                 <div className="flex flex-col gap-[8px]">
                     <p className="text-[30px] font-semibold leading-[64px] sm:text-[24px] md:text-center sm:w-full sm:leading-[34px] sm:font-semibold">Mission and Vision</p>
                     <p className="text-[20px] text-text sm:text-[14px] md:text-center md:w-full">Our mission is to harness everyone's effort toward attaining net zero carbon by 2050.
