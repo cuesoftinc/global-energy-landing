@@ -48,6 +48,7 @@ const Footer = () => {
             <div className="text-[12px] text-white flex flex-col items-end pb-[20px]" >
                 <p className="font-semibold text-left">© Copyright NetZero 50 App. All Rights Reserved</p>
                 <p className="font-semibold text-left">&copy; {new Date().getFullYear()} - Property of Global Energy.</p>
+                <p className="font-semibold text-left">&copy; {new Date().getFullYear()} - Property of Global Energy.</p>
             </div>
         </div>
     )

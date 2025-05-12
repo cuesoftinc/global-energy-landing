@@ -8,6 +8,8 @@ import PlansAndSub from "../components/subscription/Plans";
 
 
 
+
+
 const Home = () => {
     return (
         <div className='flex flex-col sm:gap-[0px] gap-[20px]'>
