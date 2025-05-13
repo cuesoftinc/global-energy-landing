@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <div className="fixed w-full top-0 right-0 left-0 z-30">
-            <div className="flex justify-between items-center py-3 px-[60px] md:px-[40px] sm:px-[20px] border border-[#E3E9F0] drop-shadow-sm w-full max-w-[1600px] mx-auto bg-white">
+            <div className="flex justify-between items-center py-3 px-[60px] md:px-[40px] sm:px-[20px] border border-[#E3E9F0] drop-shadow-sm w-full max-w-[1800px] mx-auto bg-white">
                 <div className="w-[250px]">
                     <img src={Logo} alt="logo image" />
                 </div>

@@ -48,7 +48,7 @@ const SchoolPlan = () => {
                     <Button className="w-[139px] h-[55px] hidden md:block" text={"Get Started"} />
                 </div>
 
-                <div className="block w-full h-full md:hidden">
+                <div className="block w-full h-full md:hidden pb-[40px]">
                     <img className="block rounded-2xl sm:hidden" src={subscribeImg} alt="image" />
                     <img className="hidden sm:block" src="" alt="" />
                 </div>

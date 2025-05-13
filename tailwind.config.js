@@ -6,10 +6,10 @@ export default {
   ],
   theme: {
     screens: {
-      "2xl": { min: "1536px" },
-      xl: { max: "1280px" },
+      "2xl": { min: "1800px" },
+      xl: { max: "1800px" },
       lg: { max: "1024px" },
-      md: { max: "768px" },
+      md: { max: "912px" },
       sm: { max: "639px" },
     },
     extend: {

@@ -13,7 +13,7 @@ const YouthPlan = () => {
             <div className="flex flex-row justify-between">
                 <p className="text-[32px] text-[#0E1C4D] font-semibold leading-[64px] w-[70%] md:w-full md:leading-[44px] sm:leading-[28px] md:text-[34px] sm:text-[20px] md:text-center">Incentives for Individual members:</p>
                 <Button className="w-[139px] h-[55px] md:hidden" text={"Get Started"}
-                    onClick={() => window.location.href = import.meta.env.VITE_APP_URL}
+                    onClick={() => window.location.href = "https://global-webapp.vercel.app/"}
                 />
 
             </div>
@@ -49,8 +49,8 @@ const YouthPlan = () => {
                     <Button className="w-[139px] h-[55px] hidden md:block" text={"Get Started"} />
                 </div>
 
-                <div className="block w-full h-full mt-5 md:hidden">
-                    <img className="block rounded-2xl sm:hidden" src={subscribeImg} alt="image" />
+                <div className="flex flex-row justify-end items-center w-full h-full md:hidden pb-[40px]">
+                    <img className="block rounded-2xl object-cover object-top  sm:hidden" src={subscribeImg} alt="image" />
                     <img className="hidden sm:block" src="" alt="" />
                 </div>
             </div>

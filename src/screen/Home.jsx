@@ -8,18 +8,20 @@ import PlansAndSub from "../components/subscription/Plans";
 
 
 
+
+
 const Home = () => {
     return (
-        <div className='flex flex-col sm:gap-[0px] gap-[40px]'>
+        <div className='flex flex-col sm:gap-[0px] gap-[20px]'>
             <Element name="hero-section">
                 <Header />
                 <Hero />
             </Element>
-            <Element name="subscription">
-                <PlansAndSub />
-            </Element>
             <Element name="about">
                 <About />
+            </Element>
+            <Element name="subscription">
+                <PlansAndSub />
             </Element>
             <Element name="faq">
                 <FrequentQuestion />

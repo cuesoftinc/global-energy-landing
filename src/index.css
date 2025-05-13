@@ -4,6 +4,8 @@
 
 
 
+
+
 :root {
   font-family: "Plus Jakarta Sans", sans-serif;
   line-height: 1.5;
@@ -13,6 +15,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 
 * {
@@ -26,6 +29,6 @@
 }
 
 .app {
-  max-width: 1600px;
+  max-width: 1800px;
   margin: 0 auto;
 }
