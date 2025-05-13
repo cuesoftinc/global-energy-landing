@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col justify-center pt-[100px] 2xl:pt-[150px] items-center gap-5 md:w-full">
                     <div className="sm:px-[24px] md:px-[40px] flex flex-col justify-start items-center gap-[12px]">
-                        <p className="w-[80%] sm:w-full md:w-full text-[40px] text-center md:text-[34px] sm:text-[20px] font-semibold sm:font-bold text-black-500 leading-[60px] sm:leading-8 animate__animated animate__bounceInDown animate__slower" >Welcome to Global <span className="text-green"> Energy Transition</span> for People and Planet Ltd/Gte (GETPP)</p>
+                        <p className="w-[80%] sm:w-full md:w-full text-[40px] text-center md:text-[34px] sm:text-[20px] font-semibold sm:font-bold text-black-500 leading-[60px] sm:leading-8 animate__animated animate__bounceInDown animate__slower" >Global<span className="text-green"> Energy Transition</span> For Planet & People</p>
 
                         <p className="w-[60%] text-[20px] md:w-full leading-[36px] text-center sm:text-[14px] sm:leading-[24px] text-text animate__animated animate__fadeInUpBig animate__slow">Your Path to Net Zero Starts Here.</p>
                     </div>
@@ -26,7 +26,7 @@ const Hero = () => {
                             type="fill"
                             className="h-[55px] px-8 sm:!h-[40px] sm:text-[12px]"
                             text={'Get started'}
-                            onClick={() => window.location.href = "https://global-webapp.vercel.app/"}
+                            onClick={() => window.location.href = "https://app.globalenergytransitions.org/"}
                         />
 
                         <Button
@@ -34,7 +34,7 @@ const Hero = () => {
                             type="outline"
                             className="h-[55px] px-6 sm:!h-[40px] sm:text-[12px]"
                             text={'Community Feeds'}
-                            onClick={() => window.location.href = "https://global-webapp.vercel.app/dashboard"}
+                            onClick={() => window.location.href = "https://app.globalenergytransitions.org/dashboard"}
                         />
                     </div>
                     <div className="flex flex-col justify-center items-center rounded-[12px] w-[94%] h-[65vh] md:h-[37vh] sm:h-[30vh] md:w-[93%] lg:w-[95%] 2xl:h-[45vh] xl:h-[70vh] relative z-[10] mt-[0px]">
