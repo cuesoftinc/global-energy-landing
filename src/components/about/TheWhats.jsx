@@ -56,11 +56,11 @@ const TheWhats = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row justify-end items-center w-[50%] lg:w-full lg:justify-center">
-                <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[360px] rounded-2xl bg-yellow lg:hidden"></div>
+            <div className="flex flex-row justify-end items-center w-[50%] lg:w-full lg:justify-center overflow-x-hidden">
+                <div className="h-[350px] w-[100px] absolute z-[-10] right-[520px] lg:right-[350px] rounded-2xl bg-yellow lg:hidden"></div>
                 <div>
                     <iframe
-                        className="w-[520px] h-[400px] sm:w-[330px] sm:h-[250px] rounded-[10px] bg-black"
+                        className="w-[520px] h-[400px] sm:w-[300px] sm:h-[250px] rounded-[10px] bg-black"
                         // width="520"
                         // height="400"
                         src={companyVideo}
