@@ -15,7 +15,7 @@ const Footer = () => {
                         <p className="text-[16px] sm:text-[12px] text-white font-semibold">Quick Links</p>
                         <div className="flex flex-col gap-3 text-[#D9D8D8] sm:text-[12px]">
                             <Link to="about" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer">About</p></Link>
-                            <Link to="subscription" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer" smooth={true} duration={500}>Subcription</p></Link>
+                            <Link to="subscription" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer" smooth={true} duration={500}>Subscription</p></Link>
                             <Link to="faq" smooth={true} duration={500}><p className="hover:underline underline-offset-4 cursor-pointer">FAQ</p></Link>
                         </div>
                     </div>
