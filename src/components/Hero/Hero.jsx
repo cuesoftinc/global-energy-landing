@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col justify-center pt-[100px] 2xl:pt-[150px] items-center gap-5 md:w-full">
                     <div className="sm:px-[24px] md:px-[40px] flex flex-col justify-start items-center gap-[12px]">
-                        <p className="w-[80%] sm:w-full md:w-full text-[40px] text-center md:text-[34px] sm:text-[20px] font-semibold sm:font-bold text-black-500 leading-[60px] sm:leading-8 animate__animated animate__bounceInDown animate__slower" >Welcome to Global <span className="text-green"> Energy Transition</span> for People and Planet Ltd/Gte (GETPP)</p>
+                        <p className="w-[80%] sm:w-full md:w-full text-[40px] text-center md:text-[34px] sm:text-[20px] font-semibold sm:font-bold text-black-500 leading-[60px] sm:leading-8 animate__animated animate__bounceInDown animate__slower" >Global<span className="text-green"> Energy Transition</span> For Planet & People</p>
 
                         <p className="w-[60%] text-[20px] md:w-full leading-[36px] text-center sm:text-[14px] sm:leading-[24px] text-text animate__animated animate__fadeInUpBig animate__slow">Your Path to Net Zero Starts Here.</p>
                     </div>
