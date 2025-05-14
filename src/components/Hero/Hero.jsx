@@ -25,8 +25,8 @@ const Hero = () => {
                             withIcon={false}
                             type="fill"
                             className="h-[55px] px-8 sm:!h-[40px] sm:text-[12px]"
-                            text={'Get started'}
-                            onClick={() => window.location.href = `${import.meta.env.VITE_APP_URL}`}
+                            text={'Get Started'}
+                            onClick={() => window.location.href = import.meta.env.VITE_APP_URL}
                         />
 
                         <Button
