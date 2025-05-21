@@ -25,7 +25,7 @@ const FAQ = ({ questions, responses }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button style={{ backgroundColor: '#069b35', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '5px' }}>
+                            <button style={{ backgroundColor: '#069b35', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '5px', fontWeight: '500', }}>
                                 Chat on WhatsApp
                             </button>
                         </a>
