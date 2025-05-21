@@ -15,8 +15,22 @@ const FAQ = ({ questions, responses }) => {
                 </p>
 
                 <div className="mt-[20px] sm:text-center">
-                    <p className="text-[20px] text-text sm:text-[14px]">You can also reach us at:</p>
-                    <p className="text-[20px] text-text sm:text-[14px]">Email: <span className="text-green font-semibold">info@globalenergytransitions.org</span></p>
+                    <div>
+                        <p className="text-[20px] text-text sm:text-[14px]">You can also reach us at:</p>
+                        <p className="text-[20px] text-text sm:text-[14px]">Email: <span className="text-green font-semibold">info@globalenergytransitions.org</span></p>
+                    </div>
+                    <div className="mt-[20px]">
+                        <a
+                            href="https://wa.me/2347044131251?text=Hi%20there!%20I%20need%20help"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button style={{ backgroundColor: '#069b35', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '5px', fontWeight: '500', }}>
+                                Chat on WhatsApp
+                            </button>
+                        </a>
+
+                    </div>
                 </div>
             </div>
 
