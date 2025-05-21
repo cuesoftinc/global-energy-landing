@@ -1,10 +1,4 @@
-// import johnson from "../../assets/johnson.jpg"
-// import joy from "../../assets/joy.jpg"
-// import godwin from "../../assets/godwin.jpg"
-// import team1 from "../../assets/team1.png"
-import team1 from "../../assets/team1.jpg"
-import team2 from "../../assets/team2.png"
-import team3 from "../../assets/team3.png"
+
 
 const Team = () => {
     return (
